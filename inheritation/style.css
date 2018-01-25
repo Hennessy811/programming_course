@@ -6,10 +6,14 @@ body {
 
 .navbar ul {
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
     justify-content: space-evenly;
     padding: 10px;
     margin: 0;
-    background: #1a0000
+    background: rgba(0, 0, 0, 0.79);
 }
 
 li {
@@ -22,6 +26,13 @@ li {
 
 a {
     font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 3px;
     text-decoration: none;
     color: white;
 }
+
+.main {
+    height: 100vh;
+}
+
